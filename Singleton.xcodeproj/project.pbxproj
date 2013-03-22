@@ -10,6 +10,7 @@
 		BD86120516FBAC1D00080B40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD86120416FBAC1D00080B40 /* Foundation.framework */; };
 		BD86120816FBAC1D00080B40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86120716FBAC1D00080B40 /* main.m */; };
 		BD86120C16FBAC1D00080B40 /* Singleton.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BD86120B16FBAC1D00080B40 /* Singleton.1 */; };
+		BD86121716FBADDC00080B40 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86121616FBADDC00080B40 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		BD86120716FBAC1D00080B40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD86120A16FBAC1D00080B40 /* Singleton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Singleton-Prefix.pch"; sourceTree = "<group>"; };
 		BD86120B16FBAC1D00080B40 /* Singleton.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Singleton.1; sourceTree = "<group>"; };
+		BD86121516FBADDC00080B40 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		BD86121616FBADDC00080B40 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		BD86120616FBAC1D00080B40 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
+				BD86121516FBADDC00080B40 /* Singleton.h */,
+				BD86121616FBADDC00080B40 /* Singleton.m */,
 				BD86120716FBAC1D00080B40 /* main.m */,
 				BD86120B16FBAC1D00080B40 /* Singleton.1 */,
 				BD86120916FBAC1D00080B40 /* Supporting Files */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD86120816FBAC1D00080B40 /* main.m in Sources */,
+				BD86121716FBADDC00080B40 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

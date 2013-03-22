@@ -7,15 +7,26 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Singleton.h"
 
 int main(int argc, const char * argv[])
 {
 
   @autoreleasepool {
       
-      // insert code here...
-      NSLog(@"Hello, World!");
-      
+    // insert code here...
+    NSLog(@"This is Singleton demo.");
+    
+    Singleton *singleton1 = [Singleton sharedInstance];
+    
+    NSLog(@"%@", singleton1);
+    
+    Singleton *singleton2 = [[Singleton allocWithZone:nil] init];
+    
+    NSLog(@"%@", singleton2);
+    
+    
+
   }
     return 0;
 }
